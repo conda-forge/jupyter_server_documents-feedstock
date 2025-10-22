@@ -3,7 +3,7 @@ context:
   # NOTE:
   # `conda_build_config.yaml` should be deleted once an official release is
   # published. See 'https://github.com/conda-forge/cfep/blob/main/cfep-05.md'.
-  version: "0.1.0a5"
+  version: "0.1.0a7"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 10d07bf3ef819fc358ba0eb9616548998217d2d6cf568dca0977a96bef6e93cb
+  sha256: cc3691b1891e15897cdee701f8ccaacd875684a006ac28eceb43d5e4e2e62b4e
 
 build:
   noarch: python
