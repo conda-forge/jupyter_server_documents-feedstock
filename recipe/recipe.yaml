@@ -1,9 +1,6 @@
 context:
   name: jupyter_server_documents
-  # NOTE:
-  # `conda_build_config.yaml` should be deleted once an official release is
-  # published. See 'https://github.com/conda-forge/cfep/blob/main/cfep-05.md'.
-  version: "0.1.0a9"
+  version: "0.1.0"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 44dd509ccb41263ff5f676816aaaab05ba5c37ac67de994cf82c974e8351076d
+  sha256: a11c5fd970dd3e9737bf9bca8c90b2ce8d8a60b2c5e719600291856f2344fdd7
 
 build:
   noarch: python
