@@ -18,7 +18,9 @@ Current build status
 <table><tr>
     <td>All platforms:</td>
     <td>
-      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
+      <a href="https://github.com/conda-forge/jupyter_server_documents-feedstock/actions/workflows/conda-build.yml">
+        <img src="https://github.com/conda-forge/jupyter_server_documents-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=main">
+      </a>
     </td>
   </tr>
 </table>
@@ -146,5 +148,7 @@ Feedstock Maintainers
 
 * [@3coins](https://github.com/3coins/)
 * [@Zsailer](https://github.com/Zsailer/)
+* [@andrii-i](https://github.com/andrii-i/)
 * [@dlqqq](https://github.com/dlqqq/)
+* [@jtpio](https://github.com/jtpio/)
 
