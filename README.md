@@ -35,14 +35,14 @@ Current release info
 Installing jupyter_server_documents
 ===================================
 
-Installing `jupyter_server_documents` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `jupyter_server_documents` from the `conda-forge/label/jupyter_server_documents_prerelease` channel can be achieved by adding `conda-forge/label/jupyter_server_documents_prerelease` to your channels with:
 
 ```
-conda config --add channels conda-forge
+conda config --add channels conda-forge/label/jupyter_server_documents_prerelease
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `jupyter_server_documents` can be installed with `conda`:
+Once the `conda-forge/label/jupyter_server_documents_prerelease` channel has been enabled, `jupyter_server_documents` can be installed with `conda`:
 
 ```
 conda install jupyter_server_documents
@@ -57,26 +57,26 @@ mamba install jupyter_server_documents
 It is possible to list all of the versions of `jupyter_server_documents` available on your platform with `conda`:
 
 ```
-conda search jupyter_server_documents --channel conda-forge
+conda search jupyter_server_documents --channel conda-forge/label/jupyter_server_documents_prerelease
 ```
 
 or with `mamba`:
 
 ```
-mamba search jupyter_server_documents --channel conda-forge
+mamba search jupyter_server_documents --channel conda-forge/label/jupyter_server_documents_prerelease
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search jupyter_server_documents --channel conda-forge
+mamba repoquery search jupyter_server_documents --channel conda-forge/label/jupyter_server_documents_prerelease
 
 # List packages depending on `jupyter_server_documents`:
-mamba repoquery whoneeds jupyter_server_documents --channel conda-forge
+mamba repoquery whoneeds jupyter_server_documents --channel conda-forge/label/jupyter_server_documents_prerelease
 
 # List dependencies of `jupyter_server_documents`:
-mamba repoquery depends jupyter_server_documents --channel conda-forge
+mamba repoquery depends jupyter_server_documents --channel conda-forge/label/jupyter_server_documents_prerelease
 ```
 
 
