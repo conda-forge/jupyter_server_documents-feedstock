@@ -1,6 +1,6 @@
 context:
   name: jupyter_server_documents
-  version: "0.2.5"
+  version: "0.3.0"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 3cdbc23ebcf4938cf174aa6402a3c1f922eb9c7a52e0fa8177bb7f268bc78115
+  sha256: ae6961e5ab43ce1f32076957a40fbf16585537614a97ef4131394218017702cd
 
 build:
   noarch: python
@@ -25,11 +25,12 @@ requirements:
     - pip
   run:
     - python >=3.9
-    - jupyter-collaboration-ui >=2.0.2,<3
+    - jupyter-collaboration-ui >=2.4.0,<4
+    - jupyter-docprovider >=2.4.0,<4
     - jupyter_server >=2.4.0,<3
     - jupyter_server_fileid >=0.9.0,<0.10.0
     - pycrdt >=0.12.49
-    - jupyter_ydoc >=3.0.0,<4.0.0
+    - jupyter_ydoc >=3.0.0,<5.0.0
 
 tests:
   - python:
