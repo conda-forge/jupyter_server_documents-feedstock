@@ -1,6 +1,6 @@
 context:
   name: jupyter_server_documents
-  version: "0.3.0"
+  version: "0.3.1"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: ae6961e5ab43ce1f32076957a40fbf16585537614a97ef4131394218017702cd
+  sha256: 9833d4a02343fb709dcdc3f17cf08c31da66f1a40f864d14d819c630a60ba2d8
 
 build:
   noarch: python
