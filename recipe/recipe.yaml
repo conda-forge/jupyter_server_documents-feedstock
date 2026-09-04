@@ -53,3 +53,4 @@ extra:
     - dlqqq
     - 3coins
     - Zsailer
+    - conda-forge/jupyter-ai
