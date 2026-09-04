@@ -193,6 +193,7 @@ Feedstock Maintainers
 * [@3coins](https://github.com/3coins/)
 * [@Zsailer](https://github.com/Zsailer/)
 * [@andrii-i](https://github.com/andrii-i/)
+* [@conda-forge/jupyter-ai](https://github.com/orgs/conda-forge/teams/jupyter-ai/)
 * [@dlqqq](https://github.com/dlqqq/)
 * [@jtpio](https://github.com/jtpio/)
 
